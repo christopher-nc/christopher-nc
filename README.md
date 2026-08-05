@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+![Metrics](/github-metrics.svg)
+
 <a href="https://github.com/christopher-nc">
   <img align="center" width="49%" src="./header.svg" />
 </a>
