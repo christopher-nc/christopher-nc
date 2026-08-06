@@ -17,6 +17,8 @@ Here are some ideas to get you started:
 
 ![Metrics](/github-metrics.svg)
 
+![Steam](/metrics.plugin.steam.svg)
+
 <a href="https://github.com/christopher-nc">
   <img align="center" width="49%" src="./header.svg" />
 </a>
