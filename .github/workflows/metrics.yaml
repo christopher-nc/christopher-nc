@@ -16,3 +16,19 @@ jobs:
       - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_SECRET }}
+
+  steam:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.steam.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes
+          plugin_steam_user: "0"
+          plugin_steam_sections: recently-played
+          plugin_steam_achievements_limit: 0
